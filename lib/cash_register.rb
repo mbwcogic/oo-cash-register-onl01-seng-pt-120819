@@ -11,6 +11,7 @@ class CashRegister
     @items << title  
     quantity -= 1
   end
+  end
   def apply_discount 
     self.total= self.total - discount * 10
     if discount > 0
